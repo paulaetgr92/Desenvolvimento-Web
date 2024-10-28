@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/poster-coringa-2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.cabecalho{
+    padding-right: 10%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 70px; /* Ajuste a altura conforme necessário */
+    width: 200px;  /* Mantém a proporção da imagem */
+}
+
+.cabecalho_lista_listas {
+    display: inline-block;
+    margin-left: 80px;
+    cursor: pointer;
+    font-size: 26px;
+    justify-content: end;   
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #000000;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.main__form {
+    display: flex;
+    justify-content:center;
+
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.descricao{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.formulario {
+    padding: 10%;
+    color: rgb(255, 255, 255);
+    background-color: #03030361;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    border: #ffffff;
+    border-radius: 6px;
+    justify-content: center;
+    font-size: 22px;
+    margin-left: 50px;
+}
+
+.inputs {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    border-left: #ffffff;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.9); /* Fundo com leve transparência */
+    background: linear-gradient(black);
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+}
+
+.cabecalho .logo img {
+    display: flex;
+    height: 70px;
+    width: 200px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo img {
+    max-width: 100%; /* Ajusta a imagem para caber no contêiner */
+    height: auto;    /* Mantém a proporção da imagem */
+}
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Ajuste este valor para o espaçamento desejado */
+}
+
+.nav-list li {
+    margin: 0; /* Remove margens adicionais se houver */
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 10px; /* Adiciona um pouco de preenchimento para melhorar a área clicável */
+}
+
+.nav-list a:hover {
+    color: #ffd700; /* Cor de destaque ao passar o mouse */
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+.login-button:hover, .register-button:hover {
+    background-color: #5fa9ee;
+}
+
+.register-button {
+    background-color: #0056b3;
+}
+
+.register-button:hover {
+    background-color: #5fa9ee;
+}
+
+.login-button, .register-button {
+    color: white;
+    background-color: #0056b3;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+
+.rotulo {
+    color: #ffffff;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin:5px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.entrada {
+    width: 352px;
+    height: 40px;
+    padding-left: 12px;
+    border-radius: 6px;
+    border: 1px solid #CBD5E1;
+    margin-top: 6px;
+    gap: 6px;
+    background-color:#ffffff ;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.entrada::placeholder{
+    color: #000000;
+    font-size: 1rem;
+}
+
+.Termos{
+    font-size: 1rem;
+    margin:14px auto;
+    color: #fff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.botao{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #434343;
+    width: 252px;
+    height: 40px;
+    display: flex;
+    border-radius: 6px;
+    margin:0 auto;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;border:1px solid #fff;
+}
+
+#date{
+    color: #000000;
+    padding: 0px 5px;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer {background-color: rgba(0, 0, 0, 0.8); /* Fundo escuro com 80% de opacidade */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    position: relative; /* Fixa o rodapé */
+    bottom: 0; /* Fica na parte inferior */
+    left: 0; /* Alinha à esquerda */
+    right: 0; /* Alinha à direita */
+    width: 100%; /* Largura total */
+}
+
+.footer-content {
+    max-width: 1200px; /* Limite de largura para conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo */
+}
+
+.footer-links {
+    list-style: none; /* Remove marcadores */
+    padding: 0; /* Remove preenchimento */
+}
+
+.footer-links li {
+    display: inline; /* Exibe links em linha */
+    margin: 0 10px; /* Margem entre os links */
+}
+
+.footer-links a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+    transition: color 0.3s; /* Transição suave para cor ao passar o mouse */
+}
+
+.footer-links a:hover {
+    color: #ffd700; /* Cor dos links ao passar o mouse */
+}

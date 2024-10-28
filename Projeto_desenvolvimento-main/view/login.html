@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/login.css">
+    <script src="../script/login.js"></script>
+</head>
+<body class="background">
+    <div class="background-image"></div>
+    
+    <header class="header">
+        <div class="cabecalho">
+            <div class="logo">
+                <a href="../index.html"><img src="../img/logo.png" alt="Logo"></a> <!-- Ajuste o caminho para o seu logo -->
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="../view/home.html">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="../view/login.html" class="login-button">Login</a>
+                <a href="../view/cadastro.html" class="register-button">Cadastro</a>
+            </div>
+        </header>
+    
+    <main>
+        <div class="form">
+            <h1>LOGIN</h1>
+            <p1>Olá!</p1>
+            <form>
+                <label class="email">
+                  <h4>E-mail:</h4>
+                    <input type="text" class="entrada_email" placeholder="Digite seu email" id="email">
+                </label>
+                <label class="password">
+                    <h4>Senha:</h4>
+                    <input type="password" class="entrada_password" placeholder="Digite sua senha" id="password">
+                </label>
+                <button type="button" id="button_login" onclick="login_usuario()">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Ingresso.com. Todos os direitos reservados. 🎫</p>
+            <ul class="footer-links">
+        
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
